@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDB944731E492CC5009C94E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB944721E492CC5009C94E7 /* AppDelegate.swift */; };
+		DDB944751E492CC5009C94E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB944741E492CC5009C94E7 /* ViewController.swift */; };
+		DDB944781E492CC5009C94E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB944761E492CC5009C94E7 /* Main.storyboard */; };
+		DDB9447B1E492CC5009C94E7 /* HelloFiix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDB944791E492CC5009C94E7 /* HelloFiix.xcdatamodeld */; };
+		DDB9447D1E492CC5009C94E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB9447C1E492CC5009C94E7 /* Assets.xcassets */; };
+		DDB944801E492CC5009C94E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB9447E1E492CC5009C94E7 /* LaunchScreen.storyboard */; };
+		DDB9448B1E492CC5009C94E7 /* HelloFiixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB9448A1E492CC5009C94E7 /* HelloFiixTests.swift */; };
+		DDB944961E492CC5009C94E7 /* HelloFiixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB944951E492CC5009C94E7 /* HelloFiixUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDB944871E492CC5009C94E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDB944671E492CC5009C94E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDB9446E1E492CC5009C94E7;
+			remoteInfo = HelloFiix;
+		};
+		DDB944921E492CC5009C94E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDB944671E492CC5009C94E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDB9446E1E492CC5009C94E7;
+			remoteInfo = HelloFiix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDB9446F1E492CC5009C94E7 /* HelloFiix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloFiix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB944721E492CC5009C94E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDB944741E492CC5009C94E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDB944771E492CC5009C94E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDB9447A1E492CC5009C94E7 /* HelloFiix.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelloFiix.xcdatamodel; sourceTree = "<group>"; };
+		DDB9447C1E492CC5009C94E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDB9447F1E492CC5009C94E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDB944811E492CC5009C94E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB944861E492CC5009C94E7 /* HelloFiixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloFiixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB9448A1E492CC5009C94E7 /* HelloFiixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloFiixTests.swift; sourceTree = "<group>"; };
+		DDB9448C1E492CC5009C94E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB944911E492CC5009C94E7 /* HelloFiixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloFiixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB944951E492CC5009C94E7 /* HelloFiixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloFiixUITests.swift; sourceTree = "<group>"; };
+		DDB944971E492CC5009C94E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDB9446C1E492CC5009C94E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB944831E492CC5009C94E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB9448E1E492CC5009C94E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDB944661E492CC5009C94E7 = {
+			isa = PBXGroup;
+			children = (
+				DDB944711E492CC5009C94E7 /* HelloFiix */,
+				DDB944891E492CC5009C94E7 /* HelloFiixTests */,
+				DDB944941E492CC5009C94E7 /* HelloFiixUITests */,
+				DDB944701E492CC5009C94E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDB944701E492CC5009C94E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB9446F1E492CC5009C94E7 /* HelloFiix.app */,
+				DDB944861E492CC5009C94E7 /* HelloFiixTests.xctest */,
+				DDB944911E492CC5009C94E7 /* HelloFiixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB944711E492CC5009C94E7 /* HelloFiix */ = {
+			isa = PBXGroup;
+			children = (
+				DDB944721E492CC5009C94E7 /* AppDelegate.swift */,
+				DDB944741E492CC5009C94E7 /* ViewController.swift */,
+				DDB944761E492CC5009C94E7 /* Main.storyboard */,
+				DDB9447C1E492CC5009C94E7 /* Assets.xcassets */,
+				DDB9447E1E492CC5009C94E7 /* LaunchScreen.storyboard */,
+				DDB944811E492CC5009C94E7 /* Info.plist */,
+				DDB944791E492CC5009C94E7 /* HelloFiix.xcdatamodeld */,
+			);
+			path = HelloFiix;
+			sourceTree = "<group>";
+		};
+		DDB944891E492CC5009C94E7 /* HelloFiixTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDB9448A1E492CC5009C94E7 /* HelloFiixTests.swift */,
+				DDB9448C1E492CC5009C94E7 /* Info.plist */,
+			);
+			path = HelloFiixTests;
+			sourceTree = "<group>";
+		};
+		DDB944941E492CC5009C94E7 /* HelloFiixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDB944951E492CC5009C94E7 /* HelloFiixUITests.swift */,
+				DDB944971E492CC5009C94E7 /* Info.plist */,
+			);
+			path = HelloFiixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDB9446E1E492CC5009C94E7 /* HelloFiix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB9449A1E492CC5009C94E7 /* Build configuration list for PBXNativeTarget "HelloFiix" */;
+			buildPhases = (
+				DDB9446B1E492CC5009C94E7 /* Sources */,
+				DDB9446C1E492CC5009C94E7 /* Frameworks */,
+				DDB9446D1E492CC5009C94E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloFiix;
+			productName = HelloFiix;
+			productReference = DDB9446F1E492CC5009C94E7 /* HelloFiix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDB944851E492CC5009C94E7 /* HelloFiixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB9449D1E492CC5009C94E7 /* Build configuration list for PBXNativeTarget "HelloFiixTests" */;
+			buildPhases = (
+				DDB944821E492CC5009C94E7 /* Sources */,
+				DDB944831E492CC5009C94E7 /* Frameworks */,
+				DDB944841E492CC5009C94E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDB944881E492CC5009C94E7 /* PBXTargetDependency */,
+			);
+			name = HelloFiixTests;
+			productName = HelloFiixTests;
+			productReference = DDB944861E492CC5009C94E7 /* HelloFiixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDB944901E492CC5009C94E7 /* HelloFiixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB944A01E492CC5009C94E7 /* Build configuration list for PBXNativeTarget "HelloFiixUITests" */;
+			buildPhases = (
+				DDB9448D1E492CC5009C94E7 /* Sources */,
+				DDB9448E1E492CC5009C94E7 /* Frameworks */,
+				DDB9448F1E492CC5009C94E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDB944931E492CC5009C94E7 /* PBXTargetDependency */,
+			);
+			name = HelloFiixUITests;
+			productName = HelloFiixUITests;
+			productReference = DDB944911E492CC5009C94E7 /* HelloFiixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDB944671E492CC5009C94E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Eric Williams";
+				TargetAttributes = {
+					DDB9446E1E492CC5009C94E7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					DDB944851E492CC5009C94E7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDB9446E1E492CC5009C94E7;
+					};
+					DDB944901E492CC5009C94E7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDB9446E1E492CC5009C94E7;
+					};
+				};
+			};
+			buildConfigurationList = DDB9446A1E492CC5009C94E7 /* Build configuration list for PBXProject "HelloFiix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDB944661E492CC5009C94E7;
+			productRefGroup = DDB944701E492CC5009C94E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDB9446E1E492CC5009C94E7 /* HelloFiix */,
+				DDB944851E492CC5009C94E7 /* HelloFiixTests */,
+				DDB944901E492CC5009C94E7 /* HelloFiixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDB9446D1E492CC5009C94E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB944801E492CC5009C94E7 /* LaunchScreen.storyboard in Resources */,
+				DDB9447D1E492CC5009C94E7 /* Assets.xcassets in Resources */,
+				DDB944781E492CC5009C94E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB944841E492CC5009C94E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB9448F1E492CC5009C94E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDB9446B1E492CC5009C94E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB944751E492CC5009C94E7 /* ViewController.swift in Sources */,
+				DDB9447B1E492CC5009C94E7 /* HelloFiix.xcdatamodeld in Sources */,
+				DDB944731E492CC5009C94E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB944821E492CC5009C94E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB9448B1E492CC5009C94E7 /* HelloFiixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB9448D1E492CC5009C94E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB944961E492CC5009C94E7 /* HelloFiixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDB944881E492CC5009C94E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDB9446E1E492CC5009C94E7 /* HelloFiix */;
+			targetProxy = DDB944871E492CC5009C94E7 /* PBXContainerItemProxy */;
+		};
+		DDB944931E492CC5009C94E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDB9446E1E492CC5009C94E7 /* HelloFiix */;
+			targetProxy = DDB944921E492CC5009C94E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDB944761E492CC5009C94E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB944771E492CC5009C94E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDB9447E1E492CC5009C94E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB9447F1E492CC5009C94E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDB944981E492CC5009C94E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDB944991E492CC5009C94E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDB9449B1E492CC5009C94E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloFiix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiixsoftware.HelloFiix.HelloFiix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DDB9449C1E492CC5009C94E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloFiix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiixsoftware.HelloFiix.HelloFiix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DDB9449E1E492CC5009C94E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HelloFiixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiixsoftware.HelloFiix.HelloFiixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloFiix.app/HelloFiix";
+			};
+			name = Debug;
+		};
+		DDB9449F1E492CC5009C94E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HelloFiixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiixsoftware.HelloFiix.HelloFiixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloFiix.app/HelloFiix";
+			};
+			name = Release;
+		};
+		DDB944A11E492CC5009C94E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HelloFiixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiixsoftware.HelloFiix.HelloFiixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HelloFiix;
+			};
+			name = Debug;
+		};
+		DDB944A21E492CC5009C94E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HelloFiixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiixsoftware.HelloFiix.HelloFiixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HelloFiix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDB9446A1E492CC5009C94E7 /* Build configuration list for PBXProject "HelloFiix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB944981E492CC5009C94E7 /* Debug */,
+				DDB944991E492CC5009C94E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB9449A1E492CC5009C94E7 /* Build configuration list for PBXNativeTarget "HelloFiix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB9449B1E492CC5009C94E7 /* Debug */,
+				DDB9449C1E492CC5009C94E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDB9449D1E492CC5009C94E7 /* Build configuration list for PBXNativeTarget "HelloFiixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB9449E1E492CC5009C94E7 /* Debug */,
+				DDB9449F1E492CC5009C94E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDB944A01E492CC5009C94E7 /* Build configuration list for PBXNativeTarget "HelloFiixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB944A11E492CC5009C94E7 /* Debug */,
+				DDB944A21E492CC5009C94E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DDB944791E492CC5009C94E7 /* HelloFiix.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DDB9447A1E492CC5009C94E7 /* HelloFiix.xcdatamodel */,
+			);
+			currentVersion = DDB9447A1E492CC5009C94E7 /* HelloFiix.xcdatamodel */;
+			path = HelloFiix.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DDB944671E492CC5009C94E7 /* Project object */;
+}
