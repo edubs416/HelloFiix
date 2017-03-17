@@ -1,0 +1,6 @@
+framework module Pods_HelloFiixUITests {
+  umbrella header "Pods-HelloFiixUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
